@@ -1,0 +1,108 @@
+body {
+  width: 768px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.ejercicio1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-items: space-between;
+  margin-top: 15px;
+}
+.naranja {
+  border-radius: 50%;
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 3%;
+}
+.rojo {
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 3%;
+}
+
+.btnCambioColor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+button.ponerRojo {
+    background-color: white;
+    color: red;
+    border: 3px solid red;
+    margin: 5px;
+    }
+
+button.ponerNaranja{
+    background-color: white;
+    color: orange;
+    border: 3px solid orange;
+    margin: 5px;
+}
+
+.ejercicio2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.btnCopiar{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+.ejercicio3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+button.btnRemplazar{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+td{
+    border: 2px solid black !important;
+}
+button.btnAnadir{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: 3px solid black;
+}
+.ejercicio4{
+    display: flex;
+    justify-content: center;
+
+}
+button.btnResta{
+    border: 3px solid black;
+    margin: 5px;
+}
+
+button.btnSuma{
+    border: 3px solid black;
+    margin: 5px;
+}
